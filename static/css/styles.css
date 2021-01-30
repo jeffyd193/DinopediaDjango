@@ -1,0 +1,117 @@
+@font-face {
+    font-family: jurassic;
+    src: url(./Jurassic\ Park.ttf);
+ }
+@font-face {
+    font-family: monterey;
+    src: url(./MontereyMediumFLF.ttf)
+}
+
+body{
+    background-image: url(./images/foliage.jpeg);
+    background-position: center fixed;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    height: 75vh;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.add-dino-button-placement{
+    position:absolute;
+    height: 20vh;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 5%;
+ }
+
+
+.header-placement{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+
+.add-dino btn{
+    color: blue;
+}
+
+.button-decoration{
+    height: 6vh;
+    width: 10vw;
+    background-color: rgb(40,130,10);
+    border: 3px outset rgb(50,50,50);
+    border-radius: 30px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration: none;
+    color: rgb(245, 238, 238);
+    font-family: jurassic;
+    font-size: 35px;
+}
+
+.button-decoration a{
+    text-decoration: none;
+    color: rgb(245, 238, 238);
+}
+.title{
+    font-family: jurassic; 
+    font-size: 180px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-decoration: underline;
+}
+
+.image-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100vw;
+    margin-top: 0px;
+    overflow: scroll;
+}
+
+.image-position img{
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.image-container{
+    background-color: rgba(58, 58, 58, 0.75);
+    margin: 8px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 320px;
+    border-radius: 5px;
+    border: outset 5px rgba(88, 88, 88, 0.75);
+    font-family: fantasy;
+    
+}
+
+.description-placement h1 h2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
